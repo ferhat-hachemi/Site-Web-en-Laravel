@@ -1,0 +1,92 @@
+h3{
+    font-family: 'Amarante', Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.7em;
+    margin-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 700px;
+    min-width: 200px;
+    text-align: left;
+}
+
+th,td {
+    text-align:center;
+}
+table tr:nth-child(odd){
+    background-color:lightsteelblue;
+}
+th{
+    color: white;
+    background-color:#34495E;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+select{
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    font: normal 30px 'Bitter', serif;
+    border: 1px solid #257C9E;
+    font-size: 15px;
+    background: white;
+    cursor: pointer;
+    color: black;
+}
+button{
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    color: black;
+    font: normal 30px 'Bitter', serif;
+    border: 1px solid #257C9E;
+    font-size: 15px;
+    background-color: #2A88AD;
+    cursor: pointer;
+}
+th,td{
+    padding:10px;
+}
+form,input{
+    font-weight: bold;
+    height: 30px;
+
+}
+.boutonmenuprincipal {
+
+    font-weight: bold;
+    height: 30px;
+    width:95px;
+    background-color:#34495E;
+    color: white;
+
+}
+.boutonmenuprincipal:hover {
+    background-color: #34495E;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-liste {
+
+    width: 95px;
+    display: none;
+    background-color: lightsteelblue;
+    min-width: 20px;
+}
+.dropdown-liste a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-liste {
+    display: block;
+}
+
+

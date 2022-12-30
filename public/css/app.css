@@ -1,0 +1,57 @@
+
+.etat{
+    color: white;
+    background-color: #2A6881;
+}
+.error{
+    color: red;
+    width: 500px;
+}
+body{
+    padding :0;
+    margin:0;
+}
+.menu{
+    width: 180px;
+    cursor: pointer;
+
+}
+.menu ul{
+    liste-style:none;
+    margin:0;
+    padding: 0;
+}
+.menu ul li{
+    list-style-type: none;
+    padding:15px;
+    position:relative;
+    widh:200px;
+    background-color:#2A6881;
+    border-top:1px solid #BDC3C7;
+}
+.menu ul ul{
+    width: 180px;
+    transition:all 0.3s;
+    opacity:0;
+    position:absolute;
+    visibility:hidden;
+    left:100.5%;
+    top:-2%;
+}
+.menu ul li:hover > ul{
+    opacity:1;
+    visibility:visible;
+
+}
+.menu ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+li{
+    background-color:steelblue;
+}
+h1{
+    font-weight: 200;
+
+}
+

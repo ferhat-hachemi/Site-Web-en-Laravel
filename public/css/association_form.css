@@ -1,0 +1,26 @@
+button{
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    color: black;
+    font: normal 30px 'Bitter', serif;
+    border: 1px solid #257C9E;
+    font-size: 15px;
+    background-color: #2A88AD;
+    cursor: pointer;
+}
+form{
+    padding: 5px 10px 5px 10px;
+    margin-top: -3px;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+    background-color: #2A6881;
+    border-color: #2A6881;
+    color: white;
+}
+select{
+    width: 200px;
+    height: 35px;
+}
